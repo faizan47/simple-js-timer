@@ -1,0 +1,29 @@
+.main {
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	max-width: min-content;
+}
+/* Inline #2 | http://127.0.0.1:5500/index.html */
+
+#duration {
+	border: none;
+	font-size: 40px;
+	text-align: center;
+
+	/* cursor: pointer; */
+}
+` /* Element | http://127.0.0.1:5500/index.html */ .timer-form {
+	position: absolute;
+}
+svg {
+	z-index: 999;
+}
+
+.timer-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
